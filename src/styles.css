@@ -1,1 +1,158 @@
 /* You can add global styles to this file, and also import other style files */
+/* Styl nawigacyjnego paska */
+.navbar {
+    background-color: #dd8347;
+    border-bottom: 1px solid #ccc;
+    list-style-type: none;
+
+    
+  }
+  
+  /* Styl elementów nawigacyjnego paska */
+
+  .navbar a {
+    color: #f1dcc4;
+    text-decoration: none;
+    size: 10px;
+    padding: 10px;
+    text-align: left;
+    font-weight: 500;     /* Dodatkowy styl - przesunięcie w lewo */
+  }
+  
+  .navbar a:hover {
+    color: #000;
+    color: #f8ad81;
+    border-radius: 10%;
+  }
+  
+  .navbar .active {
+    color: #fff;
+    background-color: #333;
+  }
+  
+  /* Styl dla responsywnego nawigacyjnego paska */
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #eaeaea;
+  }
+  
+  td:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  td:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #da9008;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d87c03;
+  }
+
+  input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Stylizacja strzałek nawigacji w kalendarzu */
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: transparent;
+    padding: 4px;
+    color: #999;
+    cursor: pointer;
+  }
+  
+  /* Stylizacja dnia tygodnia w kalendarzu */
+  input[type="date"]::-webkit-calendar-picker-indicator::before {
+    content: '▼';
+    display: inline-block;
+    margin-right: 4px;
+  }
+  
+  /* Stylizacja kalendarza */
+  input[type="date"]::-webkit-calendar-picker-indicator:hover {
+    color: #000000;
+  }
+  
+  /* Stylizacja wybranego pola daty */
+  input[type="date"]::-webkit-datetime-edit {
+    color: #030200;
+    font-weight: bold;
+  }
+  
+  /* Stylizacja dnia tygodnia w sekcji nagłówka kalendarza */
+  input[type="date"]::-webkit-calendar-picker-indicator::after {
+    content: attr(aria-label);
+    font-size: 12px;
+    color: #d4841b;
+  }
+  
+  /* Stylizacja wybranego dnia w kalendarzu */
+  input[type="date"]::-webkit-calendar-picker-indicator::-webkit-date-and-time-value {
+    color: #ca791d;
+    font-weight: bold;
+  }
+  
+  /* Ukrycie strzałek nawigacji w Firefox */
+  input[type="date"]::-moz-calendar-picker-indicator {
+    display: none;
+  }
+  
+  /* Ukrycie strzałek nawigacji w Edge i IE */
+  input[type="date"]::-ms-clear {
+    display: none;
+  }

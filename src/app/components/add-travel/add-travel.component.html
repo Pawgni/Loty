@@ -1,0 +1,43 @@
+<form #form="ngForm" (ngSumbit)="addTravel()">
+    
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" 
+      name="name" [(ngModel)]="addTravelRequest.name" required>
+    </div>
+    <div class="form-group">
+      <label for="country">Country:</label>
+      <input type="text" id="country"  
+      name="country" [(ngModel)]="addTravelRequest.country" required>
+    </div>
+    <div class="form-group">
+      <label for="city">City:</label>
+      <input type="text" id="city"  
+      name="city" [(ngModel)]="addTravelRequest.city" required>
+    </div>
+    <div class="form-group">
+      <label for="travelTime">Travel Time:</label>
+      <input type="date" id="travelTime"  
+      name="travelTime" [(ngModel)]="addTravelRequest.travelTime" required>
+    </div>
+    <div class="form-group">
+      <label for="price">Price:</label>
+      <input type="number" id="price"  
+      name="price" [(ngModel)]="addTravelRequest.price" required>
+    </div>
+    <div class="form-group">
+      <label for="imageUrl">Image URL:</label>
+      <input type="text" id="imageUrl" 
+      name="imageUrl" [(ngModel)]="addTravelRequest.imageUrl"  required>
+    </div>
+    <div class="form-group">
+      <label for="description">Description:</label>
+      <textarea id="description"  rows="4" 
+      name="description" [(ngModel)]="addTravelRequest.description" required></textarea>
+    </div>
+    <div class="form-group">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+
+  

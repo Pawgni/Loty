@@ -1,27 +1,76 @@
-# Travello
+# Zarządzanie Lotami
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.0.
+> Aplikacja do zarządzania lotami stworzona w Angularze. Jest to narzędzie umożliwiające dodawanie i wyświetlanie lotów, przeznaczone dla firm lotniczych i biur podróży.
 
-## Development server
+## Spis Treści
+* [Informacje Ogólne](#informacje-ogólne)
+* [Technologie Użyte](#technologie-użyte)
+* [Funkcjonalności](#funkcjonalności)
+* [Zrzuty Ekranu](#zrzuty-ekranu)
+* [Instalacja](#instalacja)
+* [Jak Korzystać](#jak-korzystać)
+* [Status Projektu](#status-projektu)
+* [Obszary do Rozwoju](#obszary-do-rozwoju)
+* [Podziękowania](#podziękowania)
+* [Kontakt](#kontakt)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Informacje Ogólne
+- Celem projektu jest zapewnienie łatwego w obsłudze narzędzia do zarządzania lotami.
+- Projekt został wykonany samodzielnie, nie wzorując się na istniejących rozwiązaniach.
+- Aplikacja oferuje intuicyjny interfejs do dodawania i przeglądania lotów.
 
-## Code scaffolding
+## Technologie Użyte
+- Angular
+- TypeScript
+- HTML
+- CSS
+- Visual Studio Code
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Funkcjonalności
+- Dodawanie lotów do systemu.
+- Wyświetlanie listy dostępnych lotów.
+- Interfejs użytkownika do zarządzania informacjami o lotach.
 
-## Build
+## Zrzuty Ekranu
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**Strona główna**
+![Strona główna](Screenshots/s1.png)
 
-## Running unit tests
+**Dodawanie lotu**
+![Dodawanie lotu](Screenshots/s2.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Wpisywanie danych**
+![Zmiana danych](Screenshots/s3.png)
 
-## Running end-to-end tests
+## Instalacja
+Aby uruchomić projekt lokalnie, wykonaj następujące kroki:
+1. Sklonuj repozytorium projektu na swój lokalny dysk.
+2. Otwórz folder projektu w Visual Studio Code.
+3. W terminalu VSCode wpisz `npm install`, aby zainstalować wszystkie zależności.
+4. Po zakończeniu instalacji wpisz `ng serve`, aby uruchomić serwer deweloperski.
+5. Otwórz przeglądarkę i przejdź pod adres `http://localhost:4200`.
+6. Podłącz własną bazę danych do aplikacji.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Jak Korzystać
+- Użyj interfejsu aplikacji do dodawania nowych lotów.
+- Przeglądaj i zarządzaj listą dostępnych lotów.
+- Wykorzystaj funkcje aplikacji do planowania i organizacji lotów.
 
-## Further help
+## Status Projektu
+Projekt jest w trakcie rozwoju.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Obszary do Rozwoju
+- Dodanie innych zakładek związanych z zarządzaniem lotami.
+- Integracja z kalendarzem wylotów.
+- Rozszerzenie funkcjonalności zarządzania lotami.
+
+Do zrobienia:
+- Rozbudowa interfejsu użytkownika.
+- Integracja z zaawansowanymi systemami baz danych.
+
+## Podziękowania
+- Projekt został wykonany samodzielnie.
+
+## Kontakt
+Stworzone przez [@Pawni](https://github.com/Pawgni)
+

@@ -1,0 +1,31 @@
+<div>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>name</th>
+          <th>country</th>
+          <th>city</th>
+          <th>travelTime</th>
+          <th>price</th>
+          <th>imageUrl</th>
+          <th>description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let travel of travels">
+          <td>{{travel.id}}</td>
+          <td>{{travel.name}}</td>
+          <td>{{travel.country}}</td>
+          <td>{{travel.city}}</td>
+          <td>{{travel.travelTime}}</td>
+          <td>{{travel.price}}</td>
+          <td>{{travel.imageUrl}}</td>
+          <td>{{travel.description}}</td>
+       
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</div>

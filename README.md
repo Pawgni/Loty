@@ -16,7 +16,6 @@
 
 ## Informacje Ogólne
 - Celem projektu jest zapewnienie łatwego w obsłudze narzędzia do zarządzania lotami.
-- Projekt został wykonany samodzielnie, nie wzorując się na istniejących rozwiązaniach.
 - Aplikacja oferuje intuicyjny interfejs do dodawania i przeglądania lotów.
 
 ## Technologie Użyte
